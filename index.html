@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Gradient Generator JS</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="apercu"></div>
+        <div class="commandes">
+            <div class="text-colors-group">
+                <input type="text" class="inp-color" maxlength="7" data-index="1">
+                <input type="text" class="inp-color" maxlength="7" data-index="2">
+            </div>
+            <div class="controls">
+                <input type="range" class="range">
+                <div class="btn-group">
+                    <button type="button" role="button">+</button>
+                    <button type="button" role="button">-</button>
+                    <button type="button" role="button"><img src="./ressources/shuffle_black_24dp.svg" alt="icone shuffle"></button>
+                    <button type="button" role="button"><img src="./ressources/copyPaste.svg" alt="Icône copy"></button>
+                    <button type="reset"><img src="./ressources/reset.png" alt="icone reset"></button>
+                </div>
+                <div class="messages">
+                    <span class="error-message"></span>
+                    <span class="success-message"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
